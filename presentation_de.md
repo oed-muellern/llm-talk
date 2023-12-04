@@ -3,7 +3,9 @@ footer: Nils Müller - Einführung in Large Language Models und Prompt Engineeri
 slidenumbers: true
 theme: Business Class, 5
 
-# Einführung in Large Language Models und Prompt Engineering
+# Einführung in
+# [fit] Large Language Models
+# [fit] und Prompt Engineering
 
 ---
 
@@ -15,7 +17,8 @@ theme: Business Class, 5
 
 ---
 
-# Was sind Large Language Models?
+# Was sind
+# [fit] Large Language Models?
 
 ---
 
@@ -27,7 +30,8 @@ LLMs sind eine noch relativ **junge und wenig erforschte**[^1] Technologie, habe
 
 ---
 
-# Wie funktionieren Large Language Models?
+# Wie funktionieren
+# [fit] Large Language Models?
 
 ---
 
@@ -43,7 +47,8 @@ Die neuronalen Netze lernen dadurch die Beziehungen zwischen **Wörtern und Phra
 
 ---
 
-# Wie können wir LLMs benutzen?
+# Wie benutzt man
+# [fit] Large Language Models?
 
 ---
 
@@ -73,7 +78,8 @@ Beispiele aus unserem Arbeitsalltag:
 
 ---
 
-# Grenzen von Large Language Models
+# Was sind Grenzen von
+# [fit] Large Language Models?
 
 ---
 
@@ -116,35 +122,12 @@ Daher werden LLMs auf spezialisierter Hardware (z.B. GPUs oder TPUs) trainiert, 
 
 ---
 
-# Ethische Aspekte von LLMs
-
----
-
-# Vorurteile
-
-LLMs werden mit riesigen Datensätzen von Text und Code trainiert, die die **Vorurteile** der Menschen widerspiegeln können, die sie erstellt haben.
-
-Beispielsweise wurde gezeigt, dass LLMs gegenüber bestimmten Personengruppen, wie z. B. Frauen oder ethnischen Minderheiten, **voreingenommen** sind.[^4]
-
-[^4]: [Li et al. - A Survey on Fairness in Large Language Models](https://arxiv.org/abs/2308.10149)
-
----
-
-# Privatsphäre
-
-LLMs von Drittanbietern wie OpenAI oder Google Cloud Platform **speichern Inputs und Outputs**, die während der Nutzung entstehen.
-
-Auch wenn euch die Rechte am Content gehören,[^5] sollten **Datenschutz und Persönlichkeitsrechte** gewahrt werden.
-
-[^5]: Siehe z.B. [OpenAI's Enterprise Privacy Commitements](https://openai.com/enterprise-privacy).
-
----
-
 # Wie können wir Prompt Engineering einsetzen, um bessere Ergebnisse zu erzielen?
 
 ---
 
-# Was ist Prompt Engineering?
+# Was ist
+# [fit] Prompt Engineering?
 
 ---
 
@@ -168,7 +151,8 @@ Dabei kommt "besser" ganz auf die Situation an.
 
 ---
 
-# Best Practices für Prompt Engineering
+# Best Practices für
+# [fit] Prompt Engineering
 
 ---
 
@@ -182,11 +166,11 @@ Je weniger Interpretationsspielraum das Prompt lässt, umso geringer die Wahrsch
 
 ---
 
-Verwende die "richtige" Sprache.[^6]
+Verwende die "richtige" Sprache.[^4]
 
 LLMs wurden auf einer Vielzahl von Texten trainiert. Wenn das Ergebnis ein Fachtext sein soll, verwende Fachbegriffe. Wenn das Ergebnis allgemein verständlich sein soll, benutze "Alltagssprache".
 
-[^6]: Im Moment bedeutet das leider auch, die Prompts besser in Englisch zu formulieren und das Ergebnis zu übersetzen. 🇺🇸
+[^4]: Im Moment bedeutet das leider auch, die Prompts besser in Englisch zu formulieren und das Ergebnis zu übersetzen. 🇺🇸
 
 ---
 
@@ -208,7 +192,8 @@ LLMs ermöglichen die Einführung neuer Fakten, z. B. zu Ereignissen, die nach d
 
 ---
 
-# Einige nützliche Prompt-Patterns
+# Einige nützliche
+# [fit] Prompt-Patterns
 
 ---
 
@@ -291,7 +276,7 @@ Weitere Patterns findet ihr hier:
 
 ---
 
-# Beispiel
+# Beispiel-Prompts
 
 ---
 
