@@ -19,9 +19,11 @@ theme: Business Class, 5
 
 ---
 
-Ein Large Language Model (LLM) ist eine Art von künstlicher Intelligenz (KI), die menschliche Sprache verstehen und generieren kann.
+Ein **Large Language Model** (LLM) ist eine Art von **künstlicher Intelligenz** (KI), die Text verarbeiten und erzeugen kann.
 
-LLMs befinden sich noch in der Entwicklung, haben aber das Potenzial, die Art und Weise, wie wir mit Computern interagieren, grundlegend zu verändern.
+LLMs sind eine noch relativ **junge und wenig erforschte**[^1] Technologie, haben aber das Potenzial, unseren Umgang mit Computern **grundlegend zu verändern**.
+
+[^1]: GPT-2 wurde 2019 veröffentlicht,
 
 ---
 
@@ -29,7 +31,7 @@ LLMs befinden sich noch in der Entwicklung, haben aber das Potenzial, die Art un
 
 ---
 
-LLMs werden mit einer Technik namens Deep Learning trainiert.
+LLMs werden mit einer Technik namens **Deep Learning** trainiert.
 
 Deep Learning ist eine Art des maschinellen Lernens, die künstliche neuronale Netze verwendet, um aus Daten zu lernen.
 
@@ -37,7 +39,7 @@ Deep Learning ist eine Art des maschinellen Lernens, die künstliche neuronale N
 
 Im Fall von LLMs werden die neuronalen Netze mit riesigen Datensätzen bestehend aus Text und Code trainiert.
 
-Die neuronalen Netze lernen dadurch die Beziehungen zwischen Wörtern und Phrasen. Dadurch können sie das "richtige" nächste Wort in einem Satz vorhersagen.
+Die neuronalen Netze lernen dadurch die Beziehungen zwischen **Wörtern und Phrasen**. Dadurch können sie das "richtige" **nächste Wort** in einem Satz vorhersagen.
 
 ---
 
@@ -45,13 +47,13 @@ Die neuronalen Netze lernen dadurch die Beziehungen zwischen Wörtern und Phrase
 
 ---
 
-LLMs sind vor allem ein Werkzeug, mit dem man Text generieren kann.
+LLMs sind vor allem ein **Werkzeug**, mit dem man Text generieren kann.
 
-Die Art und die Qualität des Texts hängt von der Knowledge Base des Models ab.
+Die Art und die Qualität des Texts hängt von der **Knowledge Base** des Models ab.
 
 ---
 
-Kategorien von Aufgaben, in denen LLMs sinnvoll sind:
+Kategorien von Aufgaben, die LLMs aktuell lösen können:
 
 - Brainstorming
 - Chatbots (z.B. ChatGPT)
@@ -79,38 +81,38 @@ Beispiele aus unserem Arbeitsalltag:
 
 ---
 
-LLMs schaffen keine Fakten, sie generieren Text.
+LLMs schaffen **keine Fakten**, sie generieren Text.
 
 ---
 
-LLMs neigen dazu, zu "halluzinieren", d.h. Informationen zu erfinden, die plausibel klingen, aber nicht auf Fakten beruhen.
+LLMs neigen dazu, zu **"halluzinieren"**, d.h. Informationen zu erfinden, die plausibel klingen, aber nicht auf Fakten beruhen.
 
 # "If hallucination is a problem, you're using the wrong tool."
 
 ---
 
-LLMs haben einen Stichtag, der ihre aktuellsten Trainingsinformationen widerspiegelt:
+LLMs haben einen **Stichtag**, der ihre aktuellsten Trainingsinformationen widerspiegelt:
 
 - GPT-3.5: September 2021
-- Github Copilot: Oktober 2021[^1]
+- Github Copilot: Oktober 2021[^2]
 - PaLM 2: Februar 2023
 - GPT-4: April 2023
 
-[^1]: Copilot wird regelmäßig für "wichtige" Repositories aktualisiert.
+[^2]: Copilot wird regelmäßig für "wichtige" Repositories aktualisiert.
 
 ---
 
-Ein Großteil der LLMs ist nicht open source. Ebensowenig sind die Trainingsdatensätze einsehbar.
+LLMs haben eine starke **Zufallskomponente**: Selbst wenn man die gleichen Prompts benutzt, ist das Ergebnis sehr wahrscheinlich ein anderes.
 
-LLMs sind Black Boxes, deren Output nicht genau vorhersehbar ist.
+Das unterscheidet sich von Programmiersprachen, die in der Regel ein deterministisches Ergebnis liefern.
 
 ---
 
-Das Training von LLMs ist sehr rechen- und ressourcenintensiv.[^2]
+Das Training von LLMs ist sehr rechen- und **ressourcenintensiv**.[^3]
 
-Daher werden LLMs oft auf spezialisierter Hardware trainiert, wie z. B. GPUs oder TPUs, die vor allem Hyperscalern zur Verfügung stehen.
+Daher werden LLMs auf spezialisierter Hardware (z.B. GPUs oder TPUs) trainiert, die vor allem Hyperscalern zur Verfügung stehen.
 
-[^2]: ['Thirsty' AI: Training ChatGPT Required Enough Water to Fill a Nuclear Reactor's Cooling Tower](https://gizmodo.com/chatgpt-ai-water-185000-gallons-training-nuclear-1850324249), "500 ml Wasser pro 20 Fragen"
+[^3]: ['Thirsty' AI: Training ChatGPT Required Enough Water to Fill a Nuclear Reactor's Cooling Tower](https://gizmodo.com/chatgpt-ai-water-185000-gallons-training-nuclear-1850324249), "500 ml Wasser pro 20 Fragen"
 
 ---
 
@@ -118,23 +120,23 @@ Daher werden LLMs oft auf spezialisierter Hardware trainiert, wie z. B. GPUs ode
 
 ---
 
-# Bias
+# Vorurteile
 
-LLMs werden mit riesigen Datensätzen von Text und Code trainiert, die die Vorurteile der Menschen widerspiegeln können, die sie erstellt haben.
+LLMs werden mit riesigen Datensätzen von Text und Code trainiert, die die **Vorurteile** der Menschen widerspiegeln können, die sie erstellt haben.
 
-Beispielsweise wurde gezeigt, dass LLMs gegenüber bestimmten Personengruppen, wie z. B. Frauen oder ethnischen Minderheiten, voreingenommen sind.[^3]
+Beispielsweise wurde gezeigt, dass LLMs gegenüber bestimmten Personengruppen, wie z. B. Frauen oder ethnischen Minderheiten, **voreingenommen** sind.[^4]
 
-[^3]: [Li et al. - A Survey on Fairness in Large Language Models](https://arxiv.org/abs/2308.10149)
+[^4]: [Li et al. - A Survey on Fairness in Large Language Models](https://arxiv.org/abs/2308.10149)
 
 ---
 
 # Privatsphäre
 
-LLMs von Drittanbietern wie OpenAI oder Google Cloud Platform speichern Inputs und Outputs, die während der Nutzung entstehen.
+LLMs von Drittanbietern wie OpenAI oder Google Cloud Platform **speichern Inputs und Outputs**, die während der Nutzung entstehen.
 
-Auch wenn euch die Rechte am Content gehören,[^4] sollten Datenschutz und Persönlichkeitsrechte gewahrt werden.
+Auch wenn euch die Rechte am Content gehören,[^5] sollten **Datenschutz und Persönlichkeitsrechte** gewahrt werden.
 
-[^4]: Siehe z.B. [OpenAI's Enterprise Privacy Commitements](https://openai.com/enterprise-privacy).
+[^5]: Siehe z.B. [OpenAI's Enterprise Privacy Commitements](https://openai.com/enterprise-privacy).
 
 ---
 
@@ -150,7 +152,7 @@ Auch wenn euch die Rechte am Content gehören,[^4] sollten Datenschutz und Pers�
 
 ---
 
-Prompts sind die "Befehle", die man an ein LLM schickt.
+Prompts sind die **"Befehle"**, die man an ein LLM schickt.
 
 Zum Beispiel:
 
@@ -160,7 +162,7 @@ Zum Beispiel:
 
 ---
 
-Prompt Engineering ist der Versuch, diese Befehle durch Ausprobieren und Erfahrung so zu schreiben, dass sie die besten Ergebnisse liefern.
+Prompt Engineering ist der Versuch, diese Befehle durch Ausprobieren und Erfahrung so zu schreiben, dass sie **bessere Ergebnisse** liefern.
 
 Dabei kommt "besser" ganz auf die Situation an.
 
@@ -180,11 +182,11 @@ Je weniger Interpretationsspielraum das Prompt lässt, umso geringer die Wahrsch
 
 ---
 
-Verwende die "richtige" Sprache.[^5]
+Verwende die "richtige" Sprache.[^6]
 
 LLMs wurden auf einer Vielzahl von Texten trainiert. Wenn das Ergebnis ein Fachtext sein soll, verwende Fachbegriffe. Wenn das Ergebnis allgemein verständlich sein soll, benutze "Alltagssprache".
 
-[^5]: Im Moment bedeutet das leider auch, die Prompts besser in Englisch zu formulieren und das Ergebnis zu übersetzen. 🇺🇸
+[^6]: Im Moment bedeutet das leider auch, die Prompts besser in Englisch zu formulieren und das Ergebnis zu übersetzen. 🇺🇸
 
 ---
 
@@ -210,7 +212,7 @@ LLMs ermöglichen die Einführung neuer Fakten, z. B. zu Ereignissen, die nach d
 
 ---
 
-Prompt-Patterns sind wiederkehrende Muster in Prompts, die sich mit der Zeit als besonders effektiv herausgestellt haben.
+Prompt-Patterns sind **wiederkehrende Muster** in Prompts, die sich mit der Zeit als **besonders effektiv** herausgestellt haben.
 
 ---
 
